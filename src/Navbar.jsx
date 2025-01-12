@@ -9,10 +9,10 @@ const Navbar = () => {
 
         {/* Center - Links */}
         <div className="flex-1 hidden md:flex justify-center space-x-8 text-sm">
-          <a href="#about" className="hover:text-green-400">
-            About
+          <a href="#about" className="hover:text-[#ab20fd]">
+            About Us
           </a>
-          <a href="#contact" className="hover:text-green-400">
+          <a href="#contact" className="hover:text-[#ab20fd]">
             Contact Us
           </a>
         </div>

@@ -1,4 +1,4 @@
-
+import Card from "./Card";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 
@@ -9,7 +9,7 @@ function App() {
       <div className="h-screen  bg-[#040404]">
         <Navbar />
        <Hero />
-      
+       <Card/>
       </div>
     </>
   );

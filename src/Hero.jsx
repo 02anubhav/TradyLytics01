@@ -4,9 +4,8 @@ const Hero = () => {
   return (
     <section className="bg-black text-white py-16 px-6">
       <div className="max-w-5xl mx-auto text-center ">
-        {/* Trusted By Text */}
         <button className="text-sm text-gray-300 mb-4  px-4 py-1 rounded-full border-2 border-[#7d12ff]">
-          Trusted by Traders, Built for You.
+          Made by Traders, For Traders.
         </button>
 
         {/* Main Heading */}
@@ -19,8 +18,7 @@ const Hero = () => {
 
         {/* Subtitle */}
         <p className="text-gray-400 text-lg mb-8">
-          We simplify complex trading data, making it accessible and actionable
-          for every trader.
+          Track your trades, analyze your strategies, and automate your edge.
         </p>
 
         {/* Buttons */}
