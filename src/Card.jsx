@@ -46,21 +46,23 @@ const cardData = [
 
 const Card = () => {
   return (
-    <div className="flex justify-center items-center  bg-black">
-      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6 p-6">
-        {cardData.map((card, index) => (
-          <div
-            key={index}
-            className="w-72 h-60 p-4 border border-gray-300 rounded-lg hover:border-[#7d12ff] transition-all duration-300 flex flex-col justify-center text-center"
-          >
-            <h3 className="text-lg font-semibold mb-2 text-zinc-50">
-              {card.title}
-            </h3>
-            <p className="text-gray-600 text-sm">{card.description}</p>
-          </div>
-        ))}
+    <>
+      <div className="flex justify-center items-center bg-black min-h-screen py-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6 p-6">
+          {cardData.map((card, index) => (
+            <div
+              key={index}
+              className="w-72 h-60 p-4 border border-gray-300 rounded-lg hover:border-[#7d12ff] hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out flex flex-col justify-center text-center"
+            >
+              <h3 className="text-lg font-semibold mb-2 text-zinc-50">
+                {card.title}
+              </h3>
+              <p className="text-gray-600 text-sm">{card.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

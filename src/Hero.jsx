@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="bg-black text-white py-16 px-6">
       <div className="max-w-5xl mx-auto text-center ">
-        <button className="text-sm text-gray-300 mb-4  px-4 py-1 rounded-full border-2 border-[#7d12ff]">
+        <button className="text-sm text-gray-300 mb-4 font-mono  px-4 py-1 rounded-full border-2 border-[#7d12ff]">
           Made by Traders, For Traders.
         </button>
 
@@ -27,7 +27,7 @@ const Hero = () => {
             Explore Tradylytics →
           </button>
           <button className="bg-gray-800 px-6 py-3 rounded-full text-white font-medium hover:bg-gray-700">
-            connect →
+            Connect →
           </button>
         </div>
       </div>
