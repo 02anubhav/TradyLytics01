@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-black h-screen text-white py-16 px-6 flex items-center">
+    <section className="bg-black h-screen text-white py-16   px-6 flex ">
       <div className="max-w-5xl mx-auto text-center">
         {/* Top Button/Badge */}
         <button className="text-sm text-gray-300 mb-6 font-mono px-4 py-1 rounded-full border-2 border-[#7d12ff] hover:text-white hover:border-white transition duration-300">
