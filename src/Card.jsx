@@ -7,6 +7,7 @@ import {
   MdForum,
   MdAnalytics,
   MdTimeline,
+  MdOutlineDangerous,
 } from "react-icons/md"; // Import the icons
 
 const cardData = [
@@ -56,7 +57,7 @@ const cardData = [
     title: "Risk Management Tools",
     description:
       "Monitor critical metrics like drawdowns and position sizes to stay in control of risks.",
-    icon: <MdTimeline />, // Icon for this card
+    icon: <MdOutlineDangerous />, // Icon for this card
   },
 ];
 
