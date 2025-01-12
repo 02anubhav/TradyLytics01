@@ -1,6 +1,7 @@
 import Card from "./Card";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
        <Hero />
        <Card/>
+       <Footer/>
       </div>
     </>
   );
