@@ -47,7 +47,10 @@ const cardData = [
 const Card = () => {
   return (
     <>
-      <div className="flex justify-center items-center bg-black min-h-screen py-10">
+      <div className="bg-black text-zinc-50 text-4xl font-bold text-center ">
+        <h1 className="text-zinc-50">What We Offer</h1>
+      </div>
+      <div className="flex justify-center items-center  min-h-screen bg-black py-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-6 ">
           {cardData.map((card, index) => (
             <div
