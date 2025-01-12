@@ -1,4 +1,3 @@
-// Card.jsx
 import React from "react";
 
 const cardData = [
@@ -46,26 +45,26 @@ const cardData = [
 
 const Card = () => {
   return (
-    <>
-      <div className="bg-black text-zinc-50 text-4xl font-bold text-center ">
-        <h1 className="text-zinc-50">What We Offer</h1>
+    <section className="bg-black text-white py-16 px-8">
+      <div className="text-center mb-10">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+          What We Offer
+        </h1>
       </div>
-      <div className="flex justify-center items-center  min-h-screen bg-black py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-6 ">
-          {cardData.map((card, index) => (
-            <div
-              key={index}
-              className="w-72 h-60 p-4 border border-gray-300 rounded-lg hover:border-[#7d12ff] hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out flex flex-col justify-center text-center"
-            >
-              <h3 className="text-lg font-semibold mb-2 text-zinc-50">
-                {card.title}
-              </h3>
-              <p className="text-gray-600 text-sm">{card.description}</p>
-            </div>
-          ))}
-        </div>
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        {cardData.map((card, index) => (
+          <div
+            key={index}
+            className="w-full h-60 p-6 border border-gray-700 rounded-lg bg-gray-900 hover:border-[#7d12ff] hover:shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out flex flex-col justify-center text-center"
+          >
+            <h3 className="text-lg font-semibold text-[#7d12ff] mb-4">
+              {card.title}
+            </h3>
+            <p className="text-gray-400 text-sm">{card.description}</p>
+          </div>
+        ))}
       </div>
-    </>
+    </section>
   );
 };
 
