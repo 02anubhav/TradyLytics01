@@ -1,4 +1,4 @@
-
+/* Typing effect for button text */
 @keyframes typingButton {
   from {
     width: 0;
@@ -9,25 +9,17 @@
   }
 }
 
-
+/* Blinking cursor for button text */
 @keyframes blinkButton {
   50% {
     border-color: transparent;
   }
 }
 
-
 .animate-typing-button {
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #7d12ff;
-  animation: typingButton 3s steps(22, end) infinite, blinkButton 0.6s step-end infinite;
-  animation-delay: 0s;
-  animation-timing-function: ease-in-out;
-}
-
-
-.animate-typing-button {
-  animation-duration: 5s;
-  
+  animation: typingButton 3s steps(22, end), blinkButton 0.6s step-end infinite;
+  display: inline-block;
 }
