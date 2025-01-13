@@ -7,7 +7,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <>
-      <div className="h-screen  bg-[#040404]">
+      <div className="h-screen bg-[#040404]">
         <Navbar />
        <Hero />
        <Card/>
