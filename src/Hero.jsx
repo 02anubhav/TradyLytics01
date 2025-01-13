@@ -1,12 +1,15 @@
 import React from "react";
+import "./App.css"
 
 const Hero = () => {
   return (
     <section className="bg-black  text-white py-12   px-6 flex ">
       <div className="max-w-5xl mx-auto text-center">
         {/* Top Button/Badge */}
-        <button className="text-sm text-gray-300 mb-6 font-mono px-4 py-1 rounded-full border-2 border-[#7d12ff] hover:text-white hover:border-white transition duration-300">
-          Made by Traders, For Traders
+        <button className="text-sm text-gray-300 mb-6 font-mono px-4 py-1 rounded-full border-2 border-[#7d12ff] hover:text-white hover:border-white transition duration-300 relative overflow-hidden">
+          <span className="inline-block w-full animate-typing-button mt-2">
+            Made by Traders, For Traders
+          </span>
         </button>
 
         {/* Main Heading */}
